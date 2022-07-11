@@ -1,24 +1,5 @@
-# naive-bug-reproduce
+# THE FOOKING MANUAL
 
-## Project setup
-```
-npm install
-```
+reproducing an naive-ui bug.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+not for production use.

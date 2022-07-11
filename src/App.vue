@@ -1,17 +1,13 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <n-message-provider>
+    <img alt="Vue logo" src="./assets/logo.png" />
+    <hello-world msg='123' />
+  </n-message-provider>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+<script setup>
+import HelloWorld from '@/components/HelloWorld.vue'
+import { NMessageProvider } from 'naive-ui';
 </script>
 
 <style>
